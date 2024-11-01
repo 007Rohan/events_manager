@@ -70,6 +70,8 @@ FYI -
 Use Case - 
   Create multiple users.
   Create multiple events(only superusers are allowed to create).
+  Login using any user email_id and password.
+  Use the login token for all the other api for authentication.
   Start booking events with uses.
   Get user event info.
   Get event user info(only superusers are allowed to check).
