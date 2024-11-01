@@ -1,4 +1,4 @@
-# Sample Assignment
+# events_manager
 
 
 ### How to setup locally
@@ -62,12 +62,14 @@
    ```
 
 FYI - 
-  Celery is used for booking an event.
+  ```Celery is used for booking an event.
   Also an extra api is provided to check the progess of celery task w.r.t task_id.
   Also date,time check is added while booking an event.
+```
 
 
 Use Case - 
+```
   Create multiple users.
   Create multiple events(only superusers are allowed to create).
   Login using any user email_id and password.
@@ -75,7 +77,7 @@ Use Case -
   Start booking events with uses.
   Get user event info.
   Get event user info(only superusers are allowed to check).
-
+```
   
 
 
@@ -88,4 +90,3 @@ Use Case -
 
 
 
-# events_manager
