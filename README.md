@@ -62,7 +62,8 @@
    ```
 
 FYI - 
-  ```Celery is used for booking an event.
+  ```
+   Celery is used for booking an event.
   Also an extra api is provided to check the progess of celery task w.r.t task_id.
   Also date,time check is added while booking an event.
 ```
