@@ -1,0 +1,519 @@
+{
+	"info": {
+		"_postman_id": "dc12e709-7b29-492c-a26f-dca4dce7c85d",
+		"name": "Event Managers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13680920"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "get all users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk4MTE3MTdlMjE0NzQ1ODRiZWQ3ZDVkNjdjOTFlMDc5IiwiZW1haWwiOiJra0BnbWFpbC5jb20iLCJtb2JpbGVfbnVtYmVyIjoiOTg3NjU2Nzg5MCIsImV4cCI6MTczMDU3NzIzNH0.mT0Y2ALNzkq11vt3dtHBi624oezrQQkaLy4-7ADtatg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/users/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create new user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "kk2@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "mobile_number",
+									"value": "91371435555",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{local}}/users/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImYzNWE5OGZlOTZhNzQ1ODA5M2RlNjhiYjg4MjAyNmM2IiwiZW1haWwiOiJyb2hhbkBnbWFpbC5jb20iLCJtb2JpbGVfbnVtYmVyIjoiOTEzNzE0MzU1MiIsImV4cCI6MTczMDU1MDQwMn0.kcaMnEDBuJSPCd3MW7xyb3EVDiKE3L2cWSjqL66vVw8",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "rohan@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "mobile_number",
+									"value": "7738398969",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "rk@123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{local}}/users/update/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users",
+								"update",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZjOTZkMzRlNjg5MzRjZWI5OWEzM2U5YTkxMTEwYjllIiwiZW1haWwiOiJyb2hhbmtAZ21haWwuY29tIiwibW9iaWxlX251bWJlciI6IjkxMzcxNDM1NTU0IiwiZXhwIjoxNzMwNTUwNTQ4fQ.Jg20vhQ_4mj7e7FIESKPWgEDOGom-F0mMDCVKWPl6pA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/users/delete/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users",
+								"delete",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user info",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdhN2FhMzMwMWY4NDRkNDg5MmY4ZWJhMzQyZGIzMTBlIiwiZW1haWwiOiJrazJAZ21haWwuY29tIiwibW9iaWxlX251bWJlciI6IjkxMzcxNDM1NTU1IiwiZXhwIjoxNzMwNTc3MTUyfQ.h-n1wEnqi_FO_A52B1UuSE5-ZQiWnq67JDqG516Ydvo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/users/info/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users",
+								"info",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "kk@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{local}}/users/login/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"users",
+								"login",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Events",
+			"item": [
+				{
+					"name": "get all events",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/events/?location=Banglore&date=2024-01-01",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"events",
+								""
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "Banglore"
+								},
+								{
+									"key": "date",
+									"value": "2024-01-01"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create new event",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk4MTE3MTdlMjE0NzQ1ODRiZWQ3ZDVkNjdjOTFlMDc5IiwiZW1haWwiOiJra0BnbWFpbC5jb20iLCJtb2JpbGVfbnVtYmVyIjoiOTg3NjU2Nzg5MCIsImV4cCI6MTczMDU3NzIzNH0.mT0Y2ALNzkq11vt3dtHBi624oezrQQkaLy4-7ADtatg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Comedy",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Comedy Shows",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Jaipur",
+									"type": "text"
+								},
+								{
+									"key": "date",
+									"value": "2024-01-01",
+									"type": "text"
+								},
+								{
+									"key": "time",
+									"value": "13:00",
+									"type": "text"
+								},
+								{
+									"key": "capacity",
+									"value": "10",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{local}}/events/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"events",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update event",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Comedy",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Comedy Shows",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "Mumbai",
+									"type": "text"
+								},
+								{
+									"key": "date",
+									"value": "2024-01-01",
+									"type": "text"
+								},
+								{
+									"key": "time",
+									"value": "20:00",
+									"type": "text"
+								},
+								{
+									"key": "capacity",
+									"value": "10",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{local}}/events/919c3d86-d632-4f0c-9bff-b4a65ed37dd5/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"events",
+								"919c3d86-d632-4f0c-9bff-b4a65ed37dd5",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete event",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/events/919c3d86-d632-4f0c-9bff-b4a65ed37dd5/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"events",
+								"919c3d86-d632-4f0c-9bff-b4a65ed37dd5",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get event info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/events/649ca39e-a46a-42ab-acfe-2ee892e8566b",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"events",
+								"649ca39e-a46a-42ab-acfe-2ee892e8566b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "book event",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdhN2FhMzMwMWY4NDRkNDg5MmY4ZWJhMzQyZGIzMTBlIiwiZW1haWwiOiJrazJAZ21haWwuY29tIiwibW9iaWxlX251bWJlciI6IjkxMzcxNDM1NTU1IiwiZXhwIjoxNzMwNTc3MTUyfQ.h-n1wEnqi_FO_A52B1UuSE5-ZQiWnq67JDqG516Ydvo",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "event",
+									"value": "0a2e3897-8ce1-4c29-8d20-62ddb8554c24",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{local}}/events/book/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"events",
+								"book",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "check booking progess",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "task_id",
+									"value": "44650210-3290-4f7a-b594-79357c7042e7",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{local}}/events/book/",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"events",
+								"book",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQ0MTkyMWUxOTQ3NjRiNTg5NjEzNWU2OTQ1ZDRjNGEzIiwiZW1haWwiOiJya0BnbWFpbC5jb20iLCJtb2JpbGVfbnVtYmVyIjoiIiwiZXhwIjoxNzMwNTM3NzI0fQ.cdz0KFJngp5fLKSlXxpEiXSztjRo8B_cw0Q1E0nAwEE",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "local",
+			"value": "http://127.0.0.1:8000",
+			"type": "string"
+		}
+	]
+}

@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 import jwt
 from django.conf import settings
 from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
-from django.contrib.auth.hashers import make_password
 from django.contrib.auth.models import PermissionsMixin
 from django.core.validators import RegexValidator
 from django.db import models
@@ -111,11 +110,6 @@ class User(AbstractMixinModel, AbstractBaseUser, PermissionsMixin):
             settings.SECRET_KEY, algorithm="HS256")
 
         return token
-
-    def save(self, *args, **kwargs):
-        if self.password:
-            self.password = make_password(self.password)
-        super().save(*args, **kwargs)
 
     class Meta:
         verbose_name = _("user")

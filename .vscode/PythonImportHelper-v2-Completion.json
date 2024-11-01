@@ -1,0 +1,1339 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "absolute_import",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "unicode_literals",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "Celery",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "shared_task",
+        "importPath": "celery",
+        "description": "celery",
+        "isExtraImport": true,
+        "detail": "celery",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "environ",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "environ",
+        "description": "environ",
+        "detail": "environ",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "users.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "users.models",
+        "description": "users.models",
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractMixinModel",
+        "importPath": "users.models",
+        "description": "users.models",
+        "isExtraImport": true,
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "users.models",
+        "description": "users.models",
+        "isExtraImport": true,
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "users.models",
+        "description": "users.models",
+        "isExtraImport": true,
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserToken",
+        "importPath": "users.models",
+        "description": "users.models",
+        "isExtraImport": true,
+        "detail": "users.models",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "routers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "BookEvent",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "EventViewSet",
+        "importPath": "events.views",
+        "description": "events.views",
+        "isExtraImport": true,
+        "detail": "events.views",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncResult",
+        "importPath": "celery.result",
+        "description": "celery.result",
+        "isExtraImport": true,
+        "detail": "celery.result",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "JWTAuthentication",
+        "importPath": "users.jwt",
+        "description": "users.jwt",
+        "isExtraImport": true,
+        "detail": "users.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "JWTAuthentication",
+        "importPath": "users.jwt",
+        "description": "users.jwt",
+        "isExtraImport": true,
+        "detail": "users.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "IsSuperUser",
+        "importPath": "users.permissions",
+        "description": "users.permissions",
+        "isExtraImport": true,
+        "detail": "users.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsSuperUser",
+        "importPath": "users.permissions",
+        "description": "users.permissions",
+        "isExtraImport": true,
+        "detail": "users.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "django.core.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "RegexValidator",
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "isExtraImport": true,
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectDoesNotExist",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "BaseAuthentication",
+        "importPath": "rest_framework.authentication",
+        "description": "rest_framework.authentication",
+        "isExtraImport": true,
+        "detail": "rest_framework.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "get_authorization_header",
+        "importPath": "rest_framework.authentication",
+        "description": "rest_framework.authentication",
+        "isExtraImport": true,
+        "detail": "rest_framework.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.base_user",
+        "description": "django.contrib.auth.base_user",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.base_user",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.base_user",
+        "description": "django.contrib.auth.base_user",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.base_user",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginView",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserViewSet",
+        "importPath": "users.views",
+        "description": "users.views",
+        "isExtraImport": true,
+        "detail": "users.views",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "EventAttendee",
+        "importPath": "events.models",
+        "description": "events.models",
+        "isExtraImport": true,
+        "detail": "events.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUpdateUserSerializer",
+        "importPath": "users.serializers",
+        "description": "users.serializers",
+        "isExtraImport": true,
+        "detail": "users.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "GetUserSerializer",
+        "importPath": "users.serializers",
+        "description": "users.serializers",
+        "isExtraImport": true,
+        "detail": "users.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginSerializer",
+        "importPath": "users.serializers",
+        "description": "users.serializers",
+        "isExtraImport": true,
+        "detail": "users.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "make_password",
+        "importPath": "django.contrib.auth.hashers",
+        "description": "django.contrib.auth.hashers",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.hashers",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.asgi",
+        "description": "event_manager.event_manager.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "event_manager.event_manager.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.celery",
+        "description": "event_manager.event_manager.celery",
+        "peekOfCode": "app = Celery(\"event_manager\")\n# Using a string here means the worker doesn’t have to serialize\n# the configuration object to child processes.\n# - namespace=\"CELERY\" means all celery-related configuration keys\n#   should have a `CELERY_` prefix.\napp.config_from_object(\"django.conf:settings\", namespace=\"CELERY\")\n# Load task modules from all registered Django app configs.\napp.autodiscover_tasks([\"events\"])",
+        "detail": "event_manager.event_manager.celery",
+        "documentation": {}
+    },
+    {
+        "label": "env",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "env = environ.Env()\nenviron.Env.read_env()\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = env('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = env('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "SECRET_KEY = env('SECRET_KEY')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    \"django_celery_results\",",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    \"django_celery_results\",\n    \"users\",\n    \"events\",",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nAUTH_USER_MODEL = 'users.User'",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'users.User'\nROOT_URLCONF = 'event_manager.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "ROOT_URLCONF = 'event_manager.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'event_manager.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': env('DATABASE_NAME'),\n        'USER': env('DATABASE_USER'),\n        'PASSWORD': env('DATABASE_PASSWORD'),\n        'HOST': env('DATABASE_HOST'),",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': env('DATABASE_NAME'),\n        'USER': env('DATABASE_USER'),\n        'PASSWORD': env('DATABASE_PASSWORD'),\n        'HOST': env('DATABASE_HOST'),\n        'PORT': env('DATABASE_PORT'),\n    }\n}",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCELERY_BROKER_URL = 'redis://localhost:6379/0'",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_ACCEPT_CONTENT = ['json']",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_ACCEPT_CONTENT = ['json']\nCELERY_TASK_SERIALIZER = 'json'",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_ACCEPT_CONTENT = ['json']\nCELERY_TASK_SERIALIZER = 'json'\nCELERY_RESULT_BACKEND = 'django-db'",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nCELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_ACCEPT_CONTENT = ['json']\nCELERY_TASK_SERIALIZER = 'json'\nCELERY_RESULT_BACKEND = 'django-db'",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CELERY_BROKER_URL",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "CELERY_BROKER_URL = 'redis://localhost:6379/0'\nCELERY_ACCEPT_CONTENT = ['json']\nCELERY_TASK_SERIALIZER = 'json'\nCELERY_RESULT_BACKEND = 'django-db'",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CELERY_ACCEPT_CONTENT",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "CELERY_ACCEPT_CONTENT = ['json']\nCELERY_TASK_SERIALIZER = 'json'\nCELERY_RESULT_BACKEND = 'django-db'",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CELERY_TASK_SERIALIZER",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "CELERY_TASK_SERIALIZER = 'json'\nCELERY_RESULT_BACKEND = 'django-db'",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CELERY_RESULT_BACKEND",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.settings",
+        "description": "event_manager.event_manager.settings",
+        "peekOfCode": "CELERY_RESULT_BACKEND = 'django-db'",
+        "detail": "event_manager.event_manager.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.urls",
+        "description": "event_manager.event_manager.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"users/\", include(\"users.urls\", namespace='users')),\n    path(\"events/\", include(\"events.urls\"))\n]",
+        "detail": "event_manager.event_manager.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "event_manager.event_manager.wsgi",
+        "description": "event_manager.event_manager.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "event_manager.event_manager.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "event_manager.events.migrations.0001_initial",
+        "description": "event_manager.events.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Event',\n            fields=[\n                ('created_at', models.DateTimeField(auto_now_add=True)),\n                ('modified_at', models.DateTimeField(auto_now=True)),",
+        "detail": "event_manager.events.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "event_manager.events.migrations.0002_initial",
+        "description": "event_manager.events.migrations.0002_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('events', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='event',\n            name='created_by',",
+        "detail": "event_manager.events.migrations.0002_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "event_manager.events.migrations.0003_alter_event_modified_at_and_more",
+        "description": "event_manager.events.migrations.0003_alter_event_modified_at_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0002_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='event',\n            name='modified_at',\n            field=models.DateTimeField(blank=True, null=True),\n        ),",
+        "detail": "event_manager.events.migrations.0003_alter_event_modified_at_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "event_manager.events.migrations.0004_alter_eventattendee_unique_together",
+        "description": "event_manager.events.migrations.0004_alter_eventattendee_unique_together",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0003_alter_event_modified_at_and_more'),\n    ]\n    operations = [\n        migrations.AlterUniqueTogether(\n            name='eventattendee',\n            unique_together=set(),\n        ),\n    ]",
+        "detail": "event_manager.events.migrations.0004_alter_eventattendee_unique_together",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "event_manager.events.migrations.0005_alter_eventattendee_unique_together",
+        "description": "event_manager.events.migrations.0005_alter_eventattendee_unique_together",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0004_alter_eventattendee_unique_together'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AlterUniqueTogether(\n            name='eventattendee',\n            unique_together={('user', 'event')},\n        ),",
+        "detail": "event_manager.events.migrations.0005_alter_eventattendee_unique_together",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "event_manager.events.migrations.0006_alter_eventattendee_unique_together",
+        "description": "event_manager.events.migrations.0006_alter_eventattendee_unique_together",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('events', '0005_alter_eventattendee_unique_together'),\n    ]\n    operations = [\n        migrations.AlterUniqueTogether(\n            name='eventattendee',\n            unique_together=set(),\n        ),\n    ]",
+        "detail": "event_manager.events.migrations.0006_alter_eventattendee_unique_together",
+        "documentation": {}
+    },
+    {
+        "label": "EventsConfig",
+        "kind": 6,
+        "importPath": "event_manager.events.apps",
+        "description": "event_manager.events.apps",
+        "peekOfCode": "class EventsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'events'",
+        "detail": "event_manager.events.apps",
+        "documentation": {}
+    },
+    {
+        "label": "book_event_task",
+        "kind": 2,
+        "importPath": "event_manager.events.celery_tasks",
+        "description": "event_manager.events.celery_tasks",
+        "peekOfCode": "def book_event_task(self, event_id, user_id):\n    EventAttendee.objects.create(event_id=event_id, user_id=user_id)\n    return {\"message\": \"Event successfully booked\", \"event_id\": event_id, \"user_id\": user_id}",
+        "detail": "event_manager.events.celery_tasks",
+        "documentation": {}
+    },
+    {
+        "label": "Event",
+        "kind": 6,
+        "importPath": "event_manager.events.models",
+        "description": "event_manager.events.models",
+        "peekOfCode": "class Event(AbstractMixinModel):\n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    title = models.CharField(max_length=255)\n    description = models.TextField()\n    location = models.CharField(max_length=255)\n    date = models.DateField()\n    time = models.TimeField()\n    capacity = models.PositiveIntegerField()\n    created_by = models.ForeignKey(\n        \"users.User\",",
+        "detail": "event_manager.events.models",
+        "documentation": {}
+    },
+    {
+        "label": "EventAttendee",
+        "kind": 6,
+        "importPath": "event_manager.events.models",
+        "description": "event_manager.events.models",
+        "peekOfCode": "class EventAttendee(AbstractMixinModel):\n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='event_attendees')\n    event = models.ForeignKey(Event, on_delete=models.CASCADE, related_name='attendees')\n    created_by = models.ForeignKey(\n        \"users.User\",\n        on_delete=models.PROTECT,\n        related_name=\"event_attendee_created_by\",\n        null=True,\n        blank=True,",
+        "detail": "event_manager.events.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUpdateEventSerializer",
+        "kind": 6,
+        "importPath": "event_manager.events.serializers",
+        "description": "event_manager.events.serializers",
+        "peekOfCode": "class CreateUpdateEventSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Event\n        fields = \"__all__\"\nclass GetEventSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Event\n        fields = [\"id\", \"title\", \"location\", \"date\", \"time\"]\nclass GetEventInfoSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "event_manager.events.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "GetEventSerializer",
+        "kind": 6,
+        "importPath": "event_manager.events.serializers",
+        "description": "event_manager.events.serializers",
+        "peekOfCode": "class GetEventSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Event\n        fields = [\"id\", \"title\", \"location\", \"date\", \"time\"]\nclass GetEventInfoSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Event\n        fieldss = [\"title\", \"location\", \"date\", \"time\"]\nclass EventAttendeeSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "event_manager.events.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "GetEventInfoSerializer",
+        "kind": 6,
+        "importPath": "event_manager.events.serializers",
+        "description": "event_manager.events.serializers",
+        "peekOfCode": "class GetEventInfoSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Event\n        fieldss = [\"title\", \"location\", \"date\", \"time\"]\nclass EventAttendeeSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = EventAttendee\n        fields = [\"event\"]\n    def validate_event(self, value):\n        if not Event.objects.filter(id=value.id).exists():",
+        "detail": "event_manager.events.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "EventAttendeeSerializer",
+        "kind": 6,
+        "importPath": "event_manager.events.serializers",
+        "description": "event_manager.events.serializers",
+        "peekOfCode": "class EventAttendeeSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = EventAttendee\n        fields = [\"event\"]\n    def validate_event(self, value):\n        if not Event.objects.filter(id=value.id).exists():\n            raise serializers.ValidationError(\"Event does not exist.\")\n        return value\n    def validate(self, attrs):\n        user = self.context['request'].user",
+        "detail": "event_manager.events.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "event_manager.events.urls",
+        "description": "event_manager.events.urls",
+        "peekOfCode": "app_name = \"events\"\ntrailing_slash = False\nurlpatterns = [\n    path(\"\", EventViewSet.as_view({\"get\": \"list\", \"post\": \"create\", }), name=\"event-list\"),\n    path(\"<uuid:pk>/\", EventViewSet.as_view({\"get\": \"retrieve\", \"put\": \"update\", \"delete\": \"destroy\"}),\n         name=\"event-detail\"),\n    path(\"book/\", BookEvent.as_view(), name=\"book-event\"),\n]",
+        "detail": "event_manager.events.urls",
+        "documentation": {}
+    },
+    {
+        "label": "trailing_slash",
+        "kind": 5,
+        "importPath": "event_manager.events.urls",
+        "description": "event_manager.events.urls",
+        "peekOfCode": "trailing_slash = False\nurlpatterns = [\n    path(\"\", EventViewSet.as_view({\"get\": \"list\", \"post\": \"create\", }), name=\"event-list\"),\n    path(\"<uuid:pk>/\", EventViewSet.as_view({\"get\": \"retrieve\", \"put\": \"update\", \"delete\": \"destroy\"}),\n         name=\"event-detail\"),\n    path(\"book/\", BookEvent.as_view(), name=\"book-event\"),\n]",
+        "detail": "event_manager.events.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "event_manager.events.urls",
+        "description": "event_manager.events.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", EventViewSet.as_view({\"get\": \"list\", \"post\": \"create\", }), name=\"event-list\"),\n    path(\"<uuid:pk>/\", EventViewSet.as_view({\"get\": \"retrieve\", \"put\": \"update\", \"delete\": \"destroy\"}),\n         name=\"event-detail\"),\n    path(\"book/\", BookEvent.as_view(), name=\"book-event\"),\n]",
+        "detail": "event_manager.events.urls",
+        "documentation": {}
+    },
+    {
+        "label": "EventViewSet",
+        "kind": 6,
+        "importPath": "event_manager.events.views",
+        "description": "event_manager.events.views",
+        "peekOfCode": "class EventViewSet(viewsets.ModelViewSet):\n    queryset = Event.objects.all().filter(is_deleted=False)\n    serializer_class = CreateUpdateEventSerializer\n    authentication_classes = [JWTAuthentication]\n    permission_classes = [IsSuperUser]\n    def get_queryset(self):\n        queryset = super().get_queryset()\n        location = self.request.query_params.get(\"location\", None)\n        date = self.request.query_params.get(\"date\", None)\n        filter_criteria = Q()",
+        "detail": "event_manager.events.views",
+        "documentation": {}
+    },
+    {
+        "label": "BookEvent",
+        "kind": 6,
+        "importPath": "event_manager.events.views",
+        "description": "event_manager.events.views",
+        "peekOfCode": "class BookEvent(generics.GenericAPIView):\n    authentication_classes = [JWTAuthentication]\n    permission_classes = [permissions.AllowAny]\n    serializer_class = EventAttendeeSerializer\n    def get(self, request):\n        task_id = request.data[\"task_id\"]\n        result = AsyncResult(task_id)\n        if result.state == \"PROGRESS\":\n            response = {\"status\": \"PROGRESS\", \"current\": result.info.get(\"current\", 0),\n                        \"total\": result.info.get(\"total\", 1)}",
+        "detail": "event_manager.events.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "event_manager.users.migrations.0001_initial",
+        "description": "event_manager.users.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('password', models.CharField(max_length=128, verbose_name='password')),",
+        "detail": "event_manager.users.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "event_manager.users.migrations.0002_usertoken_alter_user_modified_at",
+        "description": "event_manager.users.migrations.0002_usertoken_alter_user_modified_at",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('users', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='userToken',\n            fields=[\n                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),\n                ('user', models.CharField(blank=True, max_length=255, null=True)),",
+        "detail": "event_manager.users.migrations.0002_usertoken_alter_user_modified_at",
+        "documentation": {}
+    },
+    {
+        "label": "UsersConfig",
+        "kind": 6,
+        "importPath": "event_manager.users.apps",
+        "description": "event_manager.users.apps",
+        "peekOfCode": "class UsersConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users'",
+        "detail": "event_manager.users.apps",
+        "documentation": {}
+    },
+    {
+        "label": "JWTAuthentication",
+        "kind": 6,
+        "importPath": "event_manager.users.jwt",
+        "description": "event_manager.users.jwt",
+        "peekOfCode": "class JWTAuthentication(BaseAuthentication):\n    def authenticate(self, request):\n        auth_header = get_authorization_header(request)\n        auth_data = auth_header.decode(\"utf-8\")\n        authToken = auth_data.split(\" \")\n        if len(authToken) != 2:\n            raise exceptions.AuthenticationFailed(\"Token not valid\")\n        token = authToken[1]\n        try:\n            payload = jwt.decode(",
+        "detail": "event_manager.users.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "kind": 6,
+        "importPath": "event_manager.users.models",
+        "description": "event_manager.users.models",
+        "peekOfCode": "class UserManager(BaseUserManager):\n    use_in_migrations = True\n    def _create_user(self, email, mobile_number, password, **extra_fields):\n        # Creates and saves a User with the given email or mobile and password.\n        if not (email or mobile_number):\n            raise ValueError(\"Users must have either an email address or a mobile number\")\n        email = self.normalize_email(email)\n        user = self.model(email=email, mobile_number=mobile_number, **extra_fields)\n        user.set_password(password)\n        user.save(using=self._db)",
+        "detail": "event_manager.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractMixinModel",
+        "kind": 6,
+        "importPath": "event_manager.users.models",
+        "description": "event_manager.users.models",
+        "peekOfCode": "class AbstractMixinModel(models.Model):\n    created_at = models.DateTimeField(auto_now_add=True)\n    modified_at = models.DateTimeField(null=True, blank=True)\n    is_deleted = models.BooleanField(default=False)\n    deleted_at = models.DateTimeField(null=True, blank=True)\n    class Meta:\n        abstract = True\n    def soft_delete(self, user):\n        self.is_deleted = True\n        self.deleted_at = timezone.now()",
+        "detail": "event_manager.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "event_manager.users.models",
+        "description": "event_manager.users.models",
+        "peekOfCode": "class User(AbstractMixinModel, AbstractBaseUser, PermissionsMixin):\n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    email = models.EmailField(max_length=254, unique=True)\n    mobile_number = models.CharField(max_length=15, validators=[phone_regex], null=True, blank=True)\n    date_joined = models.DateField(null=True, blank=True, auto_now_add=True)\n    is_admin_user = models.BooleanField(default=False)\n    is_staff = models.BooleanField(default=False)\n    is_superuser = models.BooleanField(default=False)\n    is_email_verified = models.BooleanField(default=False)\n    is_mobile_number_verified = models.BooleanField(default=False)",
+        "detail": "event_manager.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserToken",
+        "kind": 6,
+        "importPath": "event_manager.users.models",
+        "description": "event_manager.users.models",
+        "peekOfCode": "class UserToken(models.Model):\n    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)\n    user = models.CharField(max_length=255, null=True, blank=True)\n    authToken = models.CharField(max_length=256, null=True, blank=True)\n    class Meta:\n        db_table = \"users_token\"",
+        "detail": "event_manager.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "phone_regex",
+        "kind": 5,
+        "importPath": "event_manager.users.models",
+        "description": "event_manager.users.models",
+        "peekOfCode": "phone_regex = RegexValidator(\n    regex=r\"^\\+?1?\\d{8,15}$\",\n    message=_(\n        \"Phone number must be entered in the format: '+99999999' Up to 15 digits allowed.\"\n    ),\n)\nclass UserManager(BaseUserManager):\n    use_in_migrations = True\n    def _create_user(self, email, mobile_number, password, **extra_fields):\n        # Creates and saves a User with the given email or mobile and password.",
+        "detail": "event_manager.users.models",
+        "documentation": {}
+    },
+    {
+        "label": "IsSuperUser",
+        "kind": 6,
+        "importPath": "event_manager.users.permissions",
+        "description": "event_manager.users.permissions",
+        "peekOfCode": "class IsSuperUser(permissions.BasePermission):\n    \"\"\"\n    Custom permission to only allow superusers to access the view.\n    \"\"\"\n    def has_permission(self, request, view):\n        return request.user and request.user.is_superuser",
+        "detail": "event_manager.users.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "CreateUpdateUserSerializer",
+        "kind": 6,
+        "importPath": "event_manager.users.serializers",
+        "description": "event_manager.users.serializers",
+        "peekOfCode": "class CreateUpdateUserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = \"__all__\"\nclass GetUserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = [\"id\", \"email\", \"mobile_number\"]\nclass UserLoginSerializer(serializers.Serializer):\n    email = serializers.EmailField(required=True)",
+        "detail": "event_manager.users.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "GetUserSerializer",
+        "kind": 6,
+        "importPath": "event_manager.users.serializers",
+        "description": "event_manager.users.serializers",
+        "peekOfCode": "class GetUserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = [\"id\", \"email\", \"mobile_number\"]\nclass UserLoginSerializer(serializers.Serializer):\n    email = serializers.EmailField(required=True)\n    password = serializers.CharField(required=True, write_only=True)\n    class Meta:\n        model = User\n        fields = (\"email\", \"password\", \"token\")",
+        "detail": "event_manager.users.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginSerializer",
+        "kind": 6,
+        "importPath": "event_manager.users.serializers",
+        "description": "event_manager.users.serializers",
+        "peekOfCode": "class UserLoginSerializer(serializers.Serializer):\n    email = serializers.EmailField(required=True)\n    password = serializers.CharField(required=True, write_only=True)\n    class Meta:\n        model = User\n        fields = (\"email\", \"password\", \"token\")\n        read_only_fields = [\"token\"]\n    def validate_email(self, value):\n        if not User.objects.filter(email=value, is_deleted=False).exists():\n            raise serializers.ValidationError(\"No account found with this email address.\")",
+        "detail": "event_manager.users.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "event_manager.users.urls",
+        "description": "event_manager.users.urls",
+        "peekOfCode": "app_name = \"users\"\ntrailing_slash = False\nurlpatterns = [\n    path(\"\", UserViewSet.as_view({\"get\": \"list\", \"post\": \"create\", }), name=\"user-list\"),\n    path(\"update/\", UserViewSet.as_view({\"put\": \"update\"}), name=\"user-detail\"),\n    path(\"delete/\", UserViewSet.as_view({\"delete\": \"destroy\"}), name=\"user-detail\"),\n    path(\"info/\", UserViewSet.as_view({\"get\": \"retrieve\"}), name=\"user-detail\"),\n    path(\"login/\", UserLoginView.as_view(), name=\"user-login\"),\n]",
+        "detail": "event_manager.users.urls",
+        "documentation": {}
+    },
+    {
+        "label": "trailing_slash",
+        "kind": 5,
+        "importPath": "event_manager.users.urls",
+        "description": "event_manager.users.urls",
+        "peekOfCode": "trailing_slash = False\nurlpatterns = [\n    path(\"\", UserViewSet.as_view({\"get\": \"list\", \"post\": \"create\", }), name=\"user-list\"),\n    path(\"update/\", UserViewSet.as_view({\"put\": \"update\"}), name=\"user-detail\"),\n    path(\"delete/\", UserViewSet.as_view({\"delete\": \"destroy\"}), name=\"user-detail\"),\n    path(\"info/\", UserViewSet.as_view({\"get\": \"retrieve\"}), name=\"user-detail\"),\n    path(\"login/\", UserLoginView.as_view(), name=\"user-login\"),\n]",
+        "detail": "event_manager.users.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "event_manager.users.urls",
+        "description": "event_manager.users.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", UserViewSet.as_view({\"get\": \"list\", \"post\": \"create\", }), name=\"user-list\"),\n    path(\"update/\", UserViewSet.as_view({\"put\": \"update\"}), name=\"user-detail\"),\n    path(\"delete/\", UserViewSet.as_view({\"delete\": \"destroy\"}), name=\"user-detail\"),\n    path(\"info/\", UserViewSet.as_view({\"get\": \"retrieve\"}), name=\"user-detail\"),\n    path(\"login/\", UserLoginView.as_view(), name=\"user-login\"),\n]",
+        "detail": "event_manager.users.urls",
+        "documentation": {}
+    },
+    {
+        "label": "UserViewSet",
+        "kind": 6,
+        "importPath": "event_manager.users.views",
+        "description": "event_manager.users.views",
+        "peekOfCode": "class UserViewSet(viewsets.ModelViewSet):\n    queryset = User.objects.all().filter(is_deleted=False)\n    serializer_class = CreateUpdateUserSerializer\n    authentication_classes = [JWTAuthentication]\n    permission_classes = [permissions.AllowAny]\n    def get_queryset(self):\n        return super().get_queryset()\n    def get_permissions(self):\n        if self.action == 'list':\n            return [IsSuperUser()]",
+        "detail": "event_manager.users.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginView",
+        "kind": 6,
+        "importPath": "event_manager.users.views",
+        "description": "event_manager.users.views",
+        "peekOfCode": "class UserLoginView(generics.GenericAPIView):\n    permission_classes = [permissions.AllowAny]\n    serializer_class = UserLoginSerializer\n    def post(self, request):\n        serializer = self.serializer_class(data=request.data)\n        serializer.is_valid(raise_exception=True)\n        email = serializer.validated_data[\"email\"]\n        password = serializer.validated_data[\"password\"]\n        user = User.objects.filter(email=email, is_deleted=False).first()\n        if user and user.check_password(password):",
+        "detail": "event_manager.users.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "event_manager.manage",
+        "description": "event_manager.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'event_manager.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "event_manager.manage",
+        "documentation": {}
+    }
+]

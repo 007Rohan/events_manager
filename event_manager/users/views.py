@@ -8,6 +8,7 @@ from users.models import User, UserToken
 from users.permissions import IsSuperUser
 from users.serializers import (CreateUpdateUserSerializer, GetUserSerializer,
                                UserLoginSerializer)
+from django.contrib.auth.hashers import make_password
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -42,6 +43,7 @@ class UserViewSet(viewsets.ModelViewSet):
     def create(self, request, *args, **kwargs):
         serializer = self.serializer_class(data=request.data)
         serializer.is_valid(raise_exception=True)
+        serializer.validated_data['password'] = make_password(request.data['password'])
         user = serializer.save()
         response_serializer = GetUserSerializer(user)
         return Response(response_serializer.data, status=201)

@@ -41,9 +41,7 @@ class EventAttendeeSerializer(serializers.ModelSerializer):
         booked_events = EventAttendee.objects.filter(user=user).select_related('event')
 
         for booking in booked_events:
-            if (booking.event.location == event.location and
-                    booking.event.date == event.date and
-                    booking.event.time == event.time):
+            if (booking.event.date == event.date and booking.event.time == event.time):
                 raise serializers.ValidationError("Event timing conflicts with another event the user is attending.")
         return attrs
 
