@@ -30,7 +30,7 @@ class JWTAuthentication(BaseAuthentication):
             id = payload["id"]
             email = payload["email"]
 
-            user = User.objects.get(id=id, email=email)
+            user = User.objects.get(id=id, email=email, is_deleted=False)
             userTok = UserToken.objects.filter(authToken=token, user=user.id).first()
             if userTok is None:
                 raise exceptions.AuthenticationFailed(

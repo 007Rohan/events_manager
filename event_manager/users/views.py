@@ -1,4 +1,5 @@
 from django.contrib.auth import authenticate
+from django.contrib.auth.hashers import make_password
 from rest_framework import generics, permissions, viewsets
 from rest_framework.response import Response
 
@@ -8,7 +9,6 @@ from users.models import User, UserToken
 from users.permissions import IsSuperUser
 from users.serializers import (CreateUpdateUserSerializer, GetUserSerializer,
                                UserLoginSerializer)
-from django.contrib.auth.hashers import make_password
 
 
 class UserViewSet(viewsets.ModelViewSet):

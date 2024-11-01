@@ -97,10 +97,10 @@ class BookEvent(generics.GenericAPIView):
         validated_data = serializer.validated_data
         event_id = validated_data["event"].id
         user_id = request.user.id
+        if not Event.objects.filter(id=event_id, is_deleted=False).exists():
+            return Response({"status": "FAILED", "message": "This event does not exist"})
         task = book_event_task.delay(event_id, user_id)
-        return Response({
-            "status": "PROGESS", "task_id": task.id
-        }, status=201)
+        return Response({"status": "PROGESS", "task_id": task.id}, status=201)
 
     def destroy(self, request, *args, **kwargs):
         event = self.get_object()
